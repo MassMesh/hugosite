@@ -1,0 +1,212 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://massmesh.org/"
+languageCode = "en-us"
+title = "The Massachusetts Mesh Network"
+publishDir="../massmesh.org/web/"
+
+# Metadata
+[params]
+  author = "James O'Keefe"
+  description = "co-organizer"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "The Massachusetts Mesh Network"
+  description = "Building a net neutral, community alternative to internet service providers that cares about your privacy"
+
+# Navigation section
+[params.nav]
+  services = "What is a Mesh Net?"
+  # mission = "Our Goals"
+  team = "How to Help"
+  # contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = false
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Net Neutrality"
+    subtitle = ""
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "Resources"
+    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "strategy"
+    title = "Strategy"
+    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "https://www.youtube.com/watch?v=tYLU755T6_I"
+  title = "How Mesh Networks Work"
+  description = "Mesh networks are not just experimental network architectures — they are actively being used to connect devices in a decentralized way. This video explains how mesh networks work, and how the concept can be employed more broadly."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Net Neutrality"
+    description = "<p>The Federal Communications Commission has changed the rules so that Internet Service Providers can decide to discriminate against that data that you send and receive. They can charge you more or slow down traffic in ways that maximize their profits.</p> <p>We believe all data should be treated equally and will make sure that the networks we create do so.</p>"
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Community Controlled"
+    description = "The Internet is a wonderful resource that we all can benefit from equally."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Securing Your Privacy"
+    description = "We believe that privacy is a human right and will build our networks so that we track only the information we need to maintain the network and will delete that information once we no longer need it."
+
+#  [[params.services.item]]
+#    icon = "icon-plane"
+#    title = "Copyrighting"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+#  [[params.services.item]]
+#    icon = "icon-present"
+#    title = "Load Fast"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+#  [[params.services.item]]
+#    icon = "icon-support"
+#    title = "Customer Support"
+#    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "How to Help"
+  description = "<p>There are many ways you can help including publicizing our effort, fundraising and finding people willing to host routers for the network.</p><p>At the moment we are organizing a series of hardware meetups to work on our router prototype that people will be able to deploy and add to the network. Our objective is to get a low cost mesh networking router working with open source software. We are currently experimenting with <a href='https://libremesh.org/' target='new'>LibreMesh</a>.</p><p>Our meetings are at Industry Lab, 288 Norfolk St, Cambridge unless otherwise listed.</p>"
+
+  [[params.team.item]]
+    name = "Mailing List"
+    position = ""
+    description = "Our main mailing list is <a href='https://lists.riseup.net/www/info/massmeshnet' target='new'>massmeshnet@lists.riseup.net></a>. Only members can post to it."
+    img = "images/person1.jpg"
+
+  [[params.team.item]]
+    name = "Calendar"
+    position = ""
+    description = "We have a <a href='https://calendar.google.com/calendar/embed?src=2d998d5dlmm9v3l7uu6f83ekbg@group.calendar.google.com&ctz=America/New_York&pli=1' target='new'>calendar of upcoming events</a>."
+    img = "images/person2.jpg"
+
+  [[params.team.item]]
+    name = "Tech Discussion"
+    position = ""
+    description = "The tech group uses a <a href='https://riot.im/app/%23/room/%23massmeshtech:matrix.org' target='new' >Matrix discussion</a> that anyone can join."
+    img = "images/person3.jpg"
+
+  [[params.team.item]]
+    name = "GitHub Repo"
+    position = ""
+    description = ""
+    img = "images/person1.jpg"
+    github = "https://github.com/MassMesh/"
+
+#  [[params.team.item]]
+#    name = "Wiki"
+#    position = ""
+#    description = "Our main mailing list is <a href='https://lists.riseup.net/www/info/massmeshnet' target='new'>massmeshnet@lists.riseup.net></a>. Only members can post to it."
+#    img = "images/person1.jpg"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = false
+  title = "Get In Touch"
+  message = "You can join our <a href=''>discussion list</a>"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = false
+  note = "<p><small>&copy; 2018 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+#  github = "#"
+#  twitter = "#"
+#  facebook = "#"
+#  vine = "#"
+#  linkedin = "#"
+#  instagram = "#"
+  
