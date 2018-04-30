@@ -153,7 +153,7 @@ publishDir="../massmesh.org/web/"
   [[params.team.item]]
     name = "Mailing List"
     position = ""
-    description = "Our main mailing list is <a href='https://lists.riseup.net/www/info/massmeshnet' target='new'>massmeshnet@lists.riseup.net></a>. Only members can post to it."
+    description = "Our main mailing list is <a href='https://lists.riseup.net/www/info/massmeshnet' target='new'>massmeshnet@lists.riseup.net</a>. Only members can post to it."
     img = "images/person1.jpg"
 
   [[params.team.item]]
@@ -165,7 +165,7 @@ publishDir="../massmesh.org/web/"
   [[params.team.item]]
     name = "Tech Discussion"
     position = ""
-    description = "The tech group uses a <a href='https://riot.im/app/%23/room/%23massmeshtech:matrix.org' target='new' >Matrix discussion</a> that anyone can join."
+    description = "The tech group uses a <a href='https://riot.im/app/#/room/#massmeshtech:matrix.org' target='new' >Matrix discussion</a> that anyone can join."
     img = "images/person3.jpg"
 
   [[params.team.item]]
