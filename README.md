@@ -1,6 +1,6 @@
 The Hugo code for the static website at massmesh.org.
 
-Using the hugo-icon theme for the moment.
+We use the hugo-icon theme for the moment. You will need to download it from https://themes.gohugo.io/hugo-icon/ and place it in your themes directory.
 
 Run *hugo* to generate the site. If you get the error:
 
