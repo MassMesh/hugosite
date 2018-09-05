@@ -151,9 +151,9 @@ publishDir="../massmesh.org/web/"
   description = "<p>There are many ways you can help including publicizing our effort, fundraising and finding people willing to host routers for the network.</p><p>At the moment we are organizing a series of hardware meetups to work on our router prototype that people will be able to deploy and add to the network. Our objective is to get a low cost mesh networking router working with open source software. We are currently experimenting with <a href='https://libremesh.org/' target='new'>LibreMesh</a>.</p><p>Our meetings are every Tuesday night, 7-9pm, at Industry Lab, 288 Norfolk St, Cambridge unless otherwise listed.</p>"
 
   [[params.team.item]]
-    name = "Tech Discussion"
+    name = "Chatrooms"
     position = ""
-    description = "<a href='https://riot.im/app/#/room/#massmeshtech:matrix.org' target='new' >A Matrix discussion anyone can join</a>"
+    description = "<a href='https://riot.im/app/#/group/+massmesh:matrix.org' target='new' >Our Matrix community discussions</a>"
     img = "images/person1.jpg"
 
   [[params.team.item]]
