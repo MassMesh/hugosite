@@ -202,7 +202,7 @@ publishDir="../massmesh.org/web/"
 [params.contact]
   enable = false
   title = "Get In Touch"
-  message = "You can join our <a href=''>discussion list</a>"
+  message = "<a href='https://riot.im/app/#/group/+massmesh:matrix.org' target='new' >Join our Matrix community discussions</a>"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
